@@ -69,7 +69,7 @@ ggmap(mt_mit_map)+
 dev.off()
 
 # Edit Image
-image <- "Image/overlay_image.png"
+image <- "Images/overlay_image.png"
 image <- image_read(image)
 green<- image_colorize(image=image,"#08c72e", opacity = 2 )
 yellow <- image_colorize(image=green,"#eaf518", opacity = 6 )
